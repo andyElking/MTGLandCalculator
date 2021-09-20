@@ -5,4 +5,4 @@ The user supplies ranges of how many land cards he wishes to draw up to a given 
 
 Here is a sample output of the program, given criteria for more aggressive MTG decks:
 
-![Sample output of the program](https://github.com/andyElking/MTGLandCalculator/blob/ffb475c9e7122edff7e54301d0b2c085120983eb/Aggro_output_screenshot.png)
+![Sample output of the program](https://github.com/andyElking/MTGLandCalculator/blob/77c1bdb3970b943e52fb8b3230f96abbcd3ecd4f/Aggro_output_screenshot.png)
