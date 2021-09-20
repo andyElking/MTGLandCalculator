@@ -1,0 +1,107 @@
+#:kivy 1.9.0
+<BoxLayout>:
+    id:wholeThing
+    orientation: "vertical"
+    padding: 10
+    spacing: 10
+    Label:
+        text: "Criteria"
+        size_hint_y: 0.1
+
+    GridLayout:
+        id:theThing
+        cols: 5
+        Label:
+            text: "L_op-"
+        TextInput:
+            multiline: False
+            id: aL_opmin
+        TextInput:
+            multiline: False
+            id: bL_opmin
+        TextInput:
+            multiline: False
+            id: cL_opmin
+        Label:
+            text: "empty"
+
+
+        Label:
+            text: "L_op+"
+        TextInput:
+            multiline: False
+            id: aL_opmax
+        TextInput:
+            multiline: False
+            id: bL_opmax
+        TextInput:
+            multiline: False
+            id: cL_opmax
+        Label:
+            text: "empty"
+
+
+        Label:
+            text: "L_min"
+        TextInput:
+            multiline: False
+            id: aL_min
+        TextInput:
+            multiline: False
+            id: bL_min
+        TextInput:
+            multiline: False
+            id: cL_min
+        Label:
+            text: "empty"
+
+
+        Label:
+            text: "L_max"
+        TextInput:
+            multiline: False
+            id: aL_max
+        TextInput:
+            multiline: False
+            id: bL_max
+        TextInput:
+            multiline: False
+            id: cL_max
+        TextInput:
+            multiline: False
+            text: "min L_d"
+            id: L_dmed
+
+
+        Label:
+            text: "N_dr"
+        TextInput:
+            multiline: False
+            id: aN_dr
+        TextInput:
+            multiline: False
+            id: bN_dr
+        TextInput:
+            multiline: False
+            id: cN_dr
+        Button:
+            text: "Calculate"
+            on_press: wholeThing.calculate()
+
+
+        Label:
+            text: "L_d"
+        Label:
+            text: "Probability"
+        Label:
+            text: "Probability"
+        Label:
+            text: "Probability"
+        Label:
+            text: "Product"
+
+
+    GridLayout:
+        id:theotherThing
+        cols: 5
+        size_hint_y: 0.01
