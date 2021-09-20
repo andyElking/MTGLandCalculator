@@ -4,7 +4,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 
 import math
-kivy.require("1.9.0")
+kivy.require("2.0.0")
 
 def binomial(n, k):
     if 0 <= k <= n:
